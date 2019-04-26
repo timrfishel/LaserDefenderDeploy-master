@@ -1,0 +1,20 @@
+﻿<title>Unity WebGL Player | LaserDefender</title>
+<link rel="shortcut icon" href="_Game/TemplateData/favicon.ico">
+<link rel="stylesheet" href="_Game/TemplateData/style.css">
+<script src="_Game/TemplateData/UnityProgress.js"></script>  
+<script src="_Game/Build/UnityLoader.js"></script>
+<script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "_Game/Build/LaserDefenderDeploy.json", {onProgress: UnityProgress});
+</script>
+
+
+
+<div class="box">
+    <h1 class="text-center text-info">Controls</h1>
+        <p class="text-center text-info">Movement: Arrow Keys Fire: Spacebar</p>
+</div>
+<div class="webgl-content">
+<div id="gameContainer" style="width: 800px; height: 600px"></div>
+       
+</div>
+            
